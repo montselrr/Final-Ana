@@ -6,6 +6,7 @@
 
 
 		<title></title>
+		<link rel="stylesheet" href="https://s3-us-west-2.amazonaws.com/s.cdpn.io/2322424/minireset.css">
 		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="style.css" type="text/css">
 
@@ -16,36 +17,42 @@
 
 
 		<header>
-			<div class="insta">
-			<a id="link" href="https://blog.aboutamazon.com/operations/meeting-the-moment">
-			<p class="instagram">
-			<img class="tag-png" src="png/instagram.png">
-			</a>
-			</p>
-			</div>
-
-			<menu>
-			<div>
-		<div>
-		<a class="button__importante" href="#">Menú</a>
-		<div>
-				<h1>
-		<div class="menuop">
-						<ul>
-							<li>Home</li>
-							<li>Artist</li>
-							<li>Date/Shedule/Place</li>
-							<li>Tickets&Contact</li>
-							<li>Sponsors</li>
-						</ul>
-
-					</div>
-						<h1>
-		</div>
-	</menu>
+			
+	
 		</header>
-
-		<div class="lineup1">
+		<div class="top">
+		<div class="menu">
+			
+				<a class="button__importante" href="#">Menú
+				</a>
+				<div class="submenu">
+						<ul>
+								<a class="submenu" href="#home">
+									Home
+								</a>
+								<a class="submenu" href="#artist">
+										Artists
+									</a>
+									<a class="submenu" href="#date">
+											Date/Shedule/Place
+										</a>
+										<a class="submenu" href="#tickets">
+												Tickets&Contact
+											</a>
+											<a class="submenu" href="#sponsors">
+													Sponsors
+												</a>
+							</ul>
+					</div>
+			</div>
+				<div class="insta">
+						<a id="link" href="https://www.instagram.com/we_arethem/">
+						<img class="tag-png" src="png/instagram.png">
+						</a>
+						</div>
+					</div>
+		
+		<div class="lineup1" id="home">
 		<ul class="lineup">
 
 			<li>Shea Diamond</li>
@@ -76,62 +83,28 @@
 	</div>
 
 	<div class="lineup2">
-	<ul class="lineupl">
-		<li>Shea Diamond</li>
-	</ul>
-	<ul class="lineupl">
-		<li>Kim Petras</li>
-	</ul>
-
-	<ul class="lineupl">
-		<li>Sateen</li>
-	</ul>
-
-	<ul class="lineupl">
-		<li>Sophie</li>
-	</ul>
-
-	<ul class="lineupl">
-		<li>Nomi Ruiz</li>
-	</ul>
-
-	<ul class="lineupl">
-		<li>Juliana H</li>
-	</ul>
-
-	<ul class="lineupl">
-		<li>Kc Ortiz</li>
-	</ul>
-
-	<ul class="lineupl">
-		<li>Octa Octa</li>
-	</ul>
-
-		<ul class="lineupl">
-		<li>Ah-Mer-Ah-Su</li>
-	</ul>
-
-	<ul class="lineupl">
-		<li>Anohni</li>
-	</ul>
-
-	<ul class="lineupl">
-		<li>The Clicks</li>
-	</ul>
-
-	<ul class="lineupl">
-		<li>Arca</li>
-	</ul>
-
-	<ul class="lineupl">
-		<li>Torraine Futurum</li>
-	</ul>
-
-	<ul class="lineupl">
-		<li>Mykki Blanco</li>
-	</ul>
-
-</div>
+			<ul class="lineup">
+	
+				<li>Shea Diamond</li>
+				<li>Kim Petras</li>
+				<li>Sateen</li>
+				<li>Sophie</li>
+				<li>Nomi Ruiz</li>
+				<li>Juliana H</li>
+				<li>Kc Ortiz</li>
+			</ul>
+	
+			<ul class="lineup">
+					<li>Octa Octa</li>
+				<li>Ah-Mer-Ah-Su</li>
+				<li>Anohni</li>
+				<li>The Clicks</li>
+				<li>Arca</li>
+				<li>Torraine Futurum</li>
+				<li>Mykki Blanco</li>
+			</ul>
+	
+		</div>
 
 
 				<carrusel>
@@ -157,12 +130,12 @@ while making sense of the world around you. </p>
 <h4>Artists</h4>
 
 
-<div class="column">
+<div class="column" id="artist">
 
 <div>
 <div class="grid-element">
 <div class="img-wrapper">
-<img class="tag-img" src="images/KCORTIZ.jpeg">
+<img class="tag-img" src="images/KCORTIZ.jpeg" >
 <div class="img-pie img-pie-credito">
 <p class="title-photos">Kc Ortiz</p>
 <p class= "text-photos">A Chicago-based, Alabama-raised rapper who lets her church roots shine through in her gritty yet glamorous hip-hop, her work is about celebrating herself for who se is.</p>
@@ -576,9 +549,8 @@ while making sense of the world around you. </p>
 </div>
 </div>
 
-
-
-	<h5> Date /Schedule/ Place </h5>
+<h5> Date /Schedule/ Place </h5>
+<div class="datest1" id="date">
 
 	<div class="datest">
 		<p>
@@ -593,7 +565,6 @@ Opening Party-
 July 24
 </p>
 </div>
-
 <div class="dates">
 <div class= justify>
 <p class="artistdate">Contrapoints</p>
@@ -658,181 +629,111 @@ July 24
 </div>
 
 </div>
-
-<div class="titlen">
-<p>
-Talks
-</p>
 </div>
 
+<div class="datest2">
+		<div class="datest3">
+<div class="datest">
+			<p>
+		Talks
+		</p>
+	</div>
+	<div class="dates">
+	<div class= justify>
+			<p class="artistdate">Contrapoints</p>
+			<p class="artistdate">Natalie Wynn</p>
+			<p class="schedule">19:00 </p>
+			<p class="artistdate">Luisa Almaguer</p>
+			<div class="schedule">
+			<p>20:00 </p>
+			</div>
+			</div>
+		</div>
+	</div>
 
-<div class="datesc">
-<p class="artistdate">Contrapoints</p>
-<p class="artistdate">Natalie Wynn</p>
-<p class="schedule">19:0019:30 </p>
-<p class="artistdate">Luisa Almaguer</p>
-<div class="schedule">
-<p>20:00 20:30</p>
+	<div class="datest3">
+	<div class="datest">
+		<p>
+	 Main Event-
+	 July 25
+	 </p>
+	</div>
+	<div class="dates2">
+	<div class="dates">
+	<div class="forpad">
+			
+			<p class="artistdate">Kc Ortiz</p>
+			<div class="schedule">18:0018:45</p>
+			</div>
+			
+			<p class="artistdate">The Clicks</p>
+			<p class="schedule">18:45 19:30</p>
+			
+			<p class="artistdate">Shea Diamond</p>
+			<p class="schedule">19:30 20:15</p>
+			
+			<p class="artistdate">Rae Sponn</p>
+			<p class="schedule">20:15 21:00</p>
+			
+			<p class="artistdate">Torraine Futurum</p>
+			<p class="schedule">21:00 21:45</p>
+			
+			<p class="artistdate">Sateen</p>
+			<p class="schedule">22:00 23:00</p>
+			</div>
+		</div>
+	<div class="dates">
+			<div class="forpad">
+					<p class="artistdate">Ah-Mer-Ah-Su</p>
+					<p class="schedule">23:00 23:45</p>
+					
+					<p class="artistdate">Anonhi</p>
+					<p class="schedule">23:45 0:45</p>
+					
+					<p class="artistdate">Arca</p>
+					<p class="schedule">0:45&1:45</p>
+					
+					<p class="artistdate">Sophie</p>
+					<p class="schedule">2:00 3:15</p>
+					
+					
+					<p class="artistdate">Mykki Blanco</p>
+					<p class="schedule">3:15 4:30</p>
+					
+					<p class="artistdate">Octo Octa</p>
+					<p class="schedule">4:30 6:00</p>
+					</div>
+				</div>
+				</div>
+			</div>
+			<div class="datest3">
+	<div class="datest">
+	 <p>
+	Opening Party-
+	July 24
+	</p>
+	</div>
+	<div class="dates">
+	<div class="forpad2">
+			<p class="artistdate">Nomi Ruiz</p>
+			<p class="schedule">22:00 22:45</p>
+			
+			<p class="artistdate">Kim Petras</p>
+			<p class="schedule">23:00 5:00</p>
+			
+		</div>
+	</div>
 </div>
 </div>
-
-<div class="datestc">
-<p>
-Main Event-
-July 25
-</p>
-
-<div class="for">
-
-<p class="artistdate">Kc Ortiz</p>
-<p class="schedule">18:0018:45</p>
-
-<p class="artistdate">The Clicks</p>
-<p class="schedule">18:45 19:30</p>
-
-<p class="artistdate">Shea Diamond</p>
-<p class="schedule">19:30 20:15</p>
-
-<p class="artistdate">Rae Sponn</p>
-<p class="schedule">20:15 21:00</p>
-
-<p class="artistdate">Torraine Futurum</p>
-<p class="schedule">21:00 21:45</p>
-
-<p class="artistdate">Sateen</p>
-<p class="schedule">22:00 23:00</p>
-</div>
-
-
-<div class="for">
-<p class="artistdate">Ah-Mer-Ah-Su</p>
-<p class="schedule">23:00 23:45</p>
-
-<p class="artistdate">Anonhi</p>
-<p class="schedule">23:45 0:45</p>
-
-<p class="artistdate">Arca</p>
-<p class="schedule">0:45&1:45</p>
-
-<p class="artistdate">Sophie</p>
-<p class="schedule">2:00 3:15</p>
-
-
-<p class="artistdate">Mykki Blanco</p>
-<p class="schedule">3:15 4:30</p>
-
-<p class="artistdate">Octo Octa</p>
-<p class="schedule">4:30 6:00</p>
-</div>
-</div>
-
-
-<div class="datestc">
-<p>
-Opening Party-
-July 24
-</p>
-
-<div class="forpadce">
-<p class="artistdate">Nomi Ruiz</p>
-<p class="schedule">22:00</p>
-
-<p class="artistdate">Kim Petras</p>
-<p class="schedule">23:00</p>
-
-<p class="artistdate">Juliana Huxtable</p>
-<p class="schedule">3:00</p>
-
-</div>
-</div>
-
 
 <div class="recta">
 
-<p class="titulos">Main Event</p>
-<p class="titulos">Opening Party</p>
-<img class="tagg-png" src="png/mapados.png">
-<img class="tagg-png" src="png/mapa.png">
-</div>
+		<p class="titulos">Main Event</p>
+		<p class="titulos">Opening Party</p>
+		<img class="tagg-png" src="png/mapados.png">
+		<img class="tagg-png" src="png/mapa.png">
+		</div>
 
-
-
-
-
-<h5> Tickets&Contact</h5>
-
-	<div class="Tickets">
-
-<div>
- <p class="titleticket">Talks</p>
- <p class="textticket">Access only in main even</p>
- <p class="priceticket">$200.00 mxn</p>
-
- <p class="titleticket">Music</p>
- <p class="textticket">Access only to music acts in main event</p>
- <p class="priceticket">$800.00 mxn</p>
-
- <p class="titleticket"> Party</p>
- <p class="textticket">Access only to opening party</p>
- <p class="priceticket">$500.00 mxn</p>
-
- </div>
-
- <div>
- <p class="titleticket">Music & Talks</p>
- <p class="textticket">Access to music acts and talks in main event</p>
- <p class="priceticket">$900.00 mxn</p>
-
- <p class="titleticket">Music</p>
- <p class="textticket">Access to music acts in main event and opening party</p>
- <p class="priceticket">$1,100.00 mxn</p>
-
- <p class="titleticket">Full</p>
- <p class="textticket">Access to all activities</p>
- <p class="priceticket">$1,200.00 mxn</p>
-
- </div>
-
-  </div>
-
-	<div class="Tickets2">
-
-<div>
- <p class="titleticket">Talks</p>
- <p class="textticket">Access only in main even</p>
- <p class="priceticket">$200.00 mxn</p>
-
- <p class="titleticket">Music</p>
- <p class="textticket">Access only to music acts in main event</p>
- <p class="priceticket">$800.00 mxn</p>
-
- <p class="titleticket"> Party</p>
- <p class="textticket">Access only to opening party</p>
- <p class="priceticket">$500.00 mxn</p>
-
- <p class="titleticket">Music & Talks</p>
- <p class="textticket">Access to music acts and talks in main event</p>
- <p class="priceticket">$900.00 mxn</p>
-
- <p class="titleticket">Music</p>
- <p class="textticket">Access to music acts in main event and opening party</p>
- <p class="priceticket">$1,100.00 mxn</p>
-
- <p class="titleticket">Full</p>
- <p class="textticket">Access to all activities</p>
- <p class="priceticket">$1,200.00 mxn</p>
-
- </div>
-
-	</div>
-
-
-
-
- <div>
- <a class="button-form" href="https://www.ticketmaster.com.mx">Buy</a>
- </div>
-</div>
 
 <form class="contact-form">
 
@@ -856,7 +757,7 @@ July 24
 <input class="submit-form--input" type="submit" value="Submit">
 
 </form>
-<div class="boxsponsors">
+<div class="boxsponsors"id="sponsors">
 	<div class="sponsors">
 	<a id="link" href="https://www.youtube.com">
 	<p class="absolut">

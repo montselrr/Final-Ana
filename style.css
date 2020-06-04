@@ -1,123 +1,150 @@
-
-*{
+* {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-html, body, h1, h2, h3, h4, h5, h6, p, ol, ul{
-  margin:0;
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
 }
 
-body{
-  background:#000000;
-  font-family:'Montserrat';
+body {
+  background: #000000;
+  font-family: "Montserrat";
 }
 
-strong{
-  font-weight:100;
+strong {
+  font-weight: 100;
   color: white;
 }
 
-p{
-  margin-bottom:50px;
+p {
+  margin-bottom: 50px;
   padding-bottom: 10px;
 }
 
-h1{
-  font-family:'Montserrat';
+h1 {
+  font-family: "Montserrat";
   font-size: 12px;
   font-weight: 100;
   list-style-type: none;
-  color:#ffffff;
+  color: #ffffff;
   padding-left: 120px;
 }
 
-
-h4{
-  font-family:'Montserrat';
+h4 {
+  font-family: "Montserrat";
   font-size: 50px;
-  font-weight:800;
+  font-weight: 800;
   font-style: italic;
   text-align: left;
   list-style-type: none;
-  color:#ffffff;
+  color: #ffffff;
   padding-top: 60px;
   padding-left: 20px;
-  margin-bottom:40px;
-  margin-top:0px;
-
+  margin-bottom: 40px;
+  margin-top: 0px;
 }
 
-h5{
-  font-family:'Montserrat';
+h5 {
+  font-family: "Montserrat";
   font-size: 50px;
-  font-weight:800;
+  font-weight: 800;
   font-style: italic;
   text-align: left;
   list-style-type: none;
-  color:#ffffff;
-  margin-bottom:60px;
-  margin-top:0px;
+  color: #ffffff;
+  margin-bottom: 60px;
+  margin-top: 0px;
   padding-left: 20px;
-
 }
-
-
-.insta{
-  max-width: 30px;
-  max-height: 30px;
+.submenu{
+  font-size: 15px;
+  color: white;
+  font-weight: 100;
+text-decoration-line: none;
+  
+}
+.submenu{
   display: grid;
-  grid-template-columns: 1fr;
+
+
+  
+}
+.button__importante{
+    background-color:#d5ec35;
+    list-style-type: none;
+    font-family: 'Montserrat';
+    font-size: 19px;
+    font-weight: 800;
+    color:#000000;
+  }
+
+.insta {
+  max-width: 30px;
+  justify-self: end;
 }
 
+.top {
+padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
-.menuop{
+.menuop {
   display: grid;
   grid-row-gap: 10px;
-  font-family:'Montserrat';
+  font-family: "Montserrat";
   font-size: 13px;
-  font-weight:100;
+  font-weight: 100;
   text-align: left;
   list-style-type: none;
 }
 
-.lineup{
- display: grid;
- grid-template-columns: 1fr 1fr 1fr 1fr;
- font-family: 'Montserrat';
- font-size: 19px;
- font-weight: 100;
- list-style-type: none;
- color:#ffffff;
- padding-left: 413px;
- padding-bottom: 39px;
+.lineup {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-family: "Montserrat";
+  font-size: 19px;
+  font-weight: 100;
+  list-style-type: none;
+  color: #ffffff;
+  padding-left: 413px;
+  padding-bottom: 39px;
 }
 
-.lineup1{
- padding-bottom: 115px;
+.lineup1 {
+  padding-bottom: 115px;
 }
 
-.lineup2{
- display: none;
+.lineup2 {
+  display: none;
 }
 
-.lineupl{
- display: grid;
- grid-template-columns: 1fr;
- font-family: 'Montserrat';
- font-size: 13px;
- font-weight: 100;
- list-style-type: none;
- color:#ffffff;
- padding-left: 250px;
- padding-bottom: 39px;
-
+.lineupl {
+  display: grid;
+  grid-template-columns: 1fr;
+  font-family: "Montserrat";
+  font-size: 13px;
+  font-weight: 100;
+  list-style-type: none;
+  color: #ffffff;
+  padding-left: 250px;
+  padding-bottom: 39px;
 }
 
-
-.textinfo{
-  font-family: 'Montserrat';
+.textinfo {
+  font-family: "Montserrat";
   font-size: 24px;
   font-weight: 100;
   justify-content: space-between;
@@ -126,83 +153,84 @@ h5{
   color: white;
 }
 
+.datest3{
+  display: none;
+}
+.column {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
-.column{
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-margin-left:20px;
-margin-right:20px
-  }
-
-  .grid-element{
-margin-left: 10px;
-margin-right: 10px;
-margin-top: 20px;
-    /*
+.grid-element {
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  /*
     Prueba poner la posición relativa en este elemento para ver qué pasa.
     position: relative;*/
-  }
+}
+.datest2{
+  display: none;
+}
+.img-wrapper {
+  /* la posición relativa sirve para usar este elemento para posicionar el elemento con posición absoluta  */
+  position: relative;
+}
 
-  .img-wrapper{
-    /* la posición relativa sirve para usar este elemento para posicionar el elemento con posición absoluta  */
-    position: relative;
-  }
+.img-pie {
+  color: black;
+  background-color: #ffffff;
+  padding: 100px;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  /* Este elemento tendrá su posición en relación al primer antecesor que tenga posición relativa. */
+  position: absolute;
 
-  .img-pie{
-    color: black;
-    background-color: #ffffff;
-    padding: 100px;
-    text-align: left;
-    width: 100%;
-    height: 100%;
-    top:0;
-    /* Este elemento tendrá su posición en relación al primer antecesor que tenga posición relativa. */
-    position: absolute;
-
-    display: none; /* esconde todos los elemtos para sólo mosstrar */
-  }
-  /*
+  display: none; /* esconde todos los elemtos para sólo mosstrar */
+}
+/*
     CSS funciona seleccionando elementos y aplicándoles estilos
     en la siguiente linea se seleccionan únicamente la clase img-wrapper en la que el mouse haga hover
     Y sobre dentro de ese elemento selecciona la clase img-pie
   */
-  .img-wrapper:hover .img-pie{
-    display: block; /* con display:block mostramos el elemento */
-  }
+.img-wrapper:hover .img-pie {
+  display: block; /* con display:block mostramos el elemento */
+}
 
-  .img-pie-credito{
-    /* funciona en combinación con la posición aboluta */
-    bottom: 0;
-  }
+.img-pie-credito {
+  /* funciona en combinación con la posición aboluta */
+  bottom: 0;
+}
 
+.column2 {
+  display: none;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 10px;
+  margin-right: 10px;
+}
 
-  .column2{
-    display: none;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-
-
-
-.grid-elementm{
-width: 100%;
-height: 100;
-margin-top: -20px;
-/*
+.grid-elementm {
+  width: 100%;
+  height: 100;
+  margin-top: -20px;
+  /*
     Prueba poner la posición relativa en este elemento para ver qué pasa.
-    position: relative;*/}
+    position: relative;*/
+}
 
-  .img-wrapperm{
-    /* la posición relativa sirve para usar este elemento para posicionar el elemento con posición absoluta  */
-    position: relative;
-  }
+.img-wrapperm {
+  /* la posición relativa sirve para usar este elemento para posicionar el elemento con posición absoluta  */
+  position: relative;
+}
 
-  .img-piem{
+.img-piem {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 25px;
   font-weight: 700;
   font-style: italic;
@@ -210,427 +238,416 @@ margin-top: -20px;
   text-align: center;
   width: 100%;
   hight: 100%;
-  top:25px;
-    /* Este elemento tendrá su posición en relación al primer antecesor que tenga posición relativa. */
-    position: absolute;
-/* esconde todos los elemtos para sólo mosstrar */
-  }
-  /*
+  top: 25px;
+  /* Este elemento tendrá su posición en relación al primer antecesor que tenga posición relativa. */
+  position: absolute;
+  /* esconde todos los elemtos para sólo mosstrar */
+}
+/*
     CSS funciona seleccionando elementos y aplicándoles estilos
     en la siguiente linea se seleccionan únicamente la clase img-wrapper en la que el mouse haga hover
     Y sobre dentro de ese elemento selecciona la clase img-pie
   */
 
+.img-pie-creditom {
+  /* funciona en combinación con la posición aboluta */
+  bottom: 0;
+}
 
-  .img-pie-creditom{
-    /* funciona en combinación con la posición aboluta */
-    bottom: 0;
-  }
-
-
-
-  .grid-rect2{
+.grid-rect2 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 20px;
+}
 
-    }
+.mapas {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
-    .mapas{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    }
+.title-photos {
+  color: black;
+  font-family: "Montserrat";
+  font-size: 35px;
+  font-weight: 800;
+  list-style-type: none;
+  text-align: center;
+  margin-top: -50px;
+}
 
+.text-photos {
+  color: black;
+  font-family: "Montserrat";
+  font-size: 15px;
+  font-weight: 100;
+  list-style-type: none;
+  margin-top: -30px;
+}
 
-  .title-photos{
-    color: black;
-    font-family: 'Montserrat';
-    font-size: 35px;
-    font-weight: 800;
-    list-style-type: none;
-    text-align: center;
-    margin-top:-50px;
-  }
+.date-photosn {
+  color: black;
+  font-family: "Montserrat";
+  font-size: 13px;
+  font-weight: 800;
+  list-style-type: none;
+  margin-top: 200px;
+}
 
-  .text-photos{
-    color: black;
-    font-family: 'Montserrat';
-    font-size: 15px;
-    font-weight: 100;
-    list-style-type: none;
-    margin-top:-30px;
-  }
+.date-photos {
+  color: black;
+  font-family: "Montserrat";
+  font-size: 13px;
+  font-weight: 100;
+  list-style-type: none;
+  margin-top: -50px;
+}
 
-  .date-photosn{
-    color: black;
-    font-family: 'Montserrat';
-    font-size: 13px;
-    font-weight: 800;
-    list-style-type: none;
-    margin-top:200px;
-  }
+.time-photos {
+  color: black;
+  font-family: "Montserrat";
+  font-size: 13px;
+  font-weight: 100;
+  list-style-type: none;
+  margin-top: -50px;
+}
 
-  .date-photos{
-    color: black;
-    font-family: 'Montserrat';
-    font-size: 13px;
-    font-weight: 100;
-    list-style-type: none;
-    margin-top:-50px;
-  }
+.datest {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 25px;
+  font-weight: 700;
+  font-style: italic;
+  color: #ffffff;
+}
 
-  .time-photos{
-    color: black;
-    font-family: 'Montserrat';
-    font-size: 13px;
-    font-weight: 100;
-    list-style-type: none;
-    margin-top:-50px;
-  }
+.dates {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-family: "Montserrat";
+  font-size: 19px;
+  font-weight: 100;
+  color: #ffffff;
+  padding-left: 115px;
+  padding-right: 115px;
+  margin-top: -30px;
+}
 
-  .datest{
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr;
-   text-align: center;
-   font-family: 'Montserrat';
-   font-size: 25px;
-   font-weight: 700;
-   font-style: italic;
-   color:#ffffff;
-  }
-
-  .dates{
-   display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr;
-   font-family: 'Montserrat';
-   font-size: 19px;
-   font-weight: 100;
-   color:#ffffff;
-   padding-left: 115px;
-   padding-right: 115px;
-   margin-top: -30px;
-  }
-
-  .datestc{
+.datestc {
   display: none;
-  }
+}
 
-  .datesc{
+.datesc {
   display: none;
-  }
+}
 
-
-.artistdate{
-  font-family: 'Montserrat';
+.artistdate {
+  font-family: "Montserrat";
   font-size: 19px;
   font-weight: 100;
   list-style-type: none;
-  color:#ffffff;
-  margin-top:0px;
-  margin-bottom:0px;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-.schedule{
+.schedule {
   justify-content: space-between;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 19px;
   font-weight: 100;
   list-style-type: none;
-  color:#ffffff;
+  color: #ffffff;
 }
 
-
-.Tickets{
+.Tickets {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 115px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 19px;
   font-weight: 100;
   list-style-type: none;
-  color:#ffffff;
+  color: #ffffff;
   margin-left: 115px;
   margin-right: 115px;
 }
 
-.Tickets2{
+.Tickets2 {
   display: none;
   grid-template-columns: 1fr 1fr;
   grid-gap: 115px;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 19px;
   font-weight: 100;
   list-style-type: none;
-  color:#ffffff;
+  color: #ffffff;
   margin-left: 115px;
   margin-right: 115px;
 }
 
-
-.forpad{
-  padding-left:50px;
+.forpad {
+  padding-left: 50px;
 }
-.forpad2{
-  padding-left:20px;
+.forpad2 {
+  padding-left: 20px;
 }
-.titleticket{
-  font-family: 'Montserrat';
+.titleticket {
+  font-family: "Montserrat";
   font-size: 19px;
   font-weight: 100;
   list-style-type: none;
-  color:#ffffff;
-  margin-top:0px;
-  margin-bottom:0px;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-.recta{
-  display:grid;
+.recta {
+  display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows:200px;
+  grid-template-rows: 200px;
 
   width: 100%;
   height: 900px;
-  background-color:#d5ec35;
+  background-color: #d5ec35;
   padding-bottom: 100px;
-
 }
 
-.titulos{
+.titulos {
   display: flex;
   align-self: center;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 25px;
   font-weight: 700;
   font-style: italic;
   list-style-type: none;
-  color:#000000;
+  color: #000000;
   justify-content: center;
   padding-top: 70px;
 }
 
-.tagg-png{
-  display:inline-flex;
+.tagg-png {
+  display: inline-flex;
   flex-wrap: wrap;
   max-width: 600px;
   max-height: 600px;
   width: 100%;
   align-items: center;
-justify-self: center;
+  justify-self: center;
 }
 
-.textticket{
-  font-family: 'Montserrat';
+.textticket {
+  font-family: "Montserrat";
   font-size: 19px;
   font-weight: 100;
   list-style-type: none;
-  color:#ffffff;
-  margin-top:0px;
-  margin-bottom:0px;
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
-.priceticket{
-  font-family: 'Montserrat';
+.priceticket {
+  font-family: "Montserrat";
   font-size: 19px;
   font-weight: 100;
   text-align: right;
   list-style-type: none;
-  color:#ffffff;
-  margin-top:0px;
-  margin-bottom:20px;
-
+  color: #ffffff;
+  margin-top: 0px;
+  margin-bottom: 20px;
 }
 
-.contact-form{
+.contact-form {
   display: grid;
   background-color: black;
   display: block;
-  font-family:'Montserrat';
+  font-family: "Montserrat";
   font-weight: 100;
   font-size: 19px;
   color: white;
   padding-left: 120px;
-  padding-top:60px;
+  padding-top: 60px;
 }
-.name-form{
-  display:flex;
-  background-color: black;
-
-}
-
-.name-form--input{
-
-  border: .5px solid white;
-  background-color: black;
-  font-family: 'Montserrat';
-  font-size: 19px;
-  font-weight: 100;
-  color:#ffffff;
-  width: 320px;
-}
-
-.name-form--input2{
-
-  border: .5px solid white;
-  background-color: black;
-  font-family: 'Montserrat';
-  font-size: 19px;
-  font-weight: 100;
-  color:#ffffff;
-  width: 320px;
-  margin-left:30px;
-}
-
-.small-letters{
+.name-form {
   display: flex;
-    margin-top: 10px;
-    margin-bottom: 20px;
+  background-color: black;
 }
 
-.name-form--label{
+.name-form--input {
+  border: 0.5px solid white;
+  background-color: black;
+  font-family: "Montserrat";
+  font-size: 19px;
+  font-weight: 100;
+  color: #ffffff;
+  max-width: 320px;
+  width: 100%;
+}
+
+.name-form--input2 {
+  border: 0.5px solid white;
+  background-color: black;
+  font-family: "Montserrat";
+  font-size: 19px;
+  font-weight: 100;
+  color: #ffffff;
+  max-width: 320px;
+  width: 100%;
+  margin-left: 30px;
+}
+
+.small-letters {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.name-form--label {
   display: block;
-  font-family:'Montserrat';
+  font-family: "Montserrat";
   font-weight: 500;
   font-style: italic;
   font-size: 9px;
   color: white;
 }
 
-.name-form--label2{
+.name-form--label2 {
   display: block;
-  font-family:'Montserrat';
+  font-family: "Montserrat";
   font-weight: 500;
   font-style: italic;
   font-size: 9px;
   color: white;
-  margin-left: 300px;
+  margin-left: 27%;
 }
 
-.contact-form--label{
+.contact-form--label {
   display: block;
-  font-family:'Montserrat';
-  font-weight:100px;
+  font-family: "Montserrat";
+  font-weight: 100px;
   font-size: 19px;
   color: white;
   margin-bottom: 20px;
 }
 
-.contact-form--input{
+.contact-form--input {
   display: block;
-  border: .5px solid white;
+  border: 0.5px solid white;
   background-color: black;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 19px;
   font-weight: 100;
   margin-bottom: 20px;
-  color:#ffffff;
-  width: 670px;
+  color: #ffffff;
+width: 100%;
+  max-width: 670px;
 }
 
-.submit-form--input{
+.submit-form--input {
   display: block;
-  border: .5px solid white;
+  border: 0.5px solid white;
   background-color: black;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 19px;
   font-weight: 100;
   margin-bottom: 100px;
-  color:#ffffff;
+  color: #ffffff;
   align-items: center;
 }
 
-.boxsponsors{
+.boxsponsors {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   align-items: center;
   grid-gap: 120px;
-  margin:100px;
-
+  margin: 100px;
 }
 
-.button-form{
-    background-color:#e06969;
-    list-style-type: none;
-    font-family: 'Montserrat';
-    font-size: 19px;
-    font-weight: 800;
-    color:#000000;
-    margin-top: 20px;
-    margin-left:120px;
-   margin-bottom: 60px;
+.button-form {
+  background-color: #e06969;
+  list-style-type: none;
+  font-family: "Montserrat";
+  font-size: 19px;
+  font-weight: 800;
+  color: #000000;
+  margin-top: 20px;
+  margin-left: 120px;
+  margin-bottom: 60px;
 }
 
-.sponsors{
+.sponsors {
   display: grid;
   grid-template-columns: 1fr;
   align-items: center;
 }
 
-.tag-png{
+.tag-png {
   width: 100%;
 }
-.tag-img{
+.tag-img {
   width: 100%;
 }
 
-.tag-img-obj{
+.tag-img-obj {
   width: 100%;
   height: 200px;
   object-fit: cover;
 }
 
-.tag-video{
+.tag-video {
   width: 100%;
 }
-.tag-image{
+.tag-image {
   width: 100%;
 }
-.tag-png{
+.tag-png {
   width: 100%;
 }
 
-.button:hover{
-padding: 10px;
+.button:hover {
+  padding: 10px;
 }
-.button-form:hover{
-padding: 10px;
-}
-
-.button__importante:hover{
-padding: 10px;
+.button-form:hover {
+  padding: 10px;
 }
 
-.kia:hover{
-padding: 15px;
+.button__importante:hover {
+  padding: 10px;
 }
 
-.absolut:hover{
-padding: 15px;
+.kia:hover {
+  padding: 15px;
 }
 
-.corona:hover{
-padding: 15px;
+.absolut:hover {
+  padding: 15px;
 }
 
-.amazon:hover{
-padding: 15px;
+.corona:hover {
+  padding: 15px;
 }
 
-.instagram:hover{
-padding: 15px;
+.amazon:hover {
+  padding: 15px;
 }
 
-.button__importante{
-  background-color:#d5ec35;
+.instagram:hover {
+  padding: 15px;
+}
+
+.button__importante {
+  background-color: #d5ec35;
   list-style-type: none;
-  font-family: 'Montserrat';
+  font-family: "Montserrat";
   font-size: 19px;
   font-weight: 800;
-  color:#000000;
+  color: #000000;
 }
-.button__slide{
-  background-color:#d5ec35;
+.button__slide {
+  background-color: #d5ec35;
 }
-.button__contact{
-  background-color:#d5ec35;
+.button__contact {
+  background-color: #d5ec35;
 }
 
 /*
@@ -641,404 +658,1237 @@ padding: 15px;
  */
 
 @media only screen and (max-width: 850px) {
-
-  .menuop{
-    font-size: 10px;
+  p {
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+  }
+  .datest2{
+    display: none;
+  }
+  .datest3{
+    display: none;
+  }
+  h1 {
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 100;
+    list-style-type: none;
+    color: #ffffff;
+    padding-left: 120px;
   }
 
-  .lineup{
-   font-size: 13px;
-   grid-column-gap:35px;
-   grid-row: 20px;
-   padding-left: 290px;
-   padding-bottom: 39px;
-
+  h4 {
+    font-family: "Montserrat";
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+    text-align: left;
+    list-style-type: none;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 60px;
+    margin-top: 0px;
   }
 
-  .lineup1{
-   padding-bottom: 60px;
+  h5 {
+    font-family: "Montserrat";
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+    text-align: left;
+    list-style-type: none;
+    color: #ffffff;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+  .insta {
+    max-width: 30px;
+  }
+  .dates2{
+    display: none;
+  }
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
-  .textinfo{
-    font-family: 'Montserrat';
+  .menuop {
+    display: grid;
+    grid-row-gap: 10px;
+    font-family: "Montserrat";
     font-size: 13px;
+    font-weight: 100;
+    text-align: left;
+    list-style-type: none;
+  }
+  .lineup1 {
+    padding-bottom: 50px;
+  }
+  .lineup {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    list-style-type: none;
+    color: #ffffff;
+    padding-left: 5%;
+    padding-right: 30px;
+    padding-bottom: 30px;
+  }
+
+  .lineup2 {
+    display: none;
+  }
+
+  .lineupl {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    list-style-type: none;
+    color: #ffffff;
+    padding-bottom: 0px;
+  }
+
+  .textinfo {
+    font-family: "Montserrat";
+    font-size: 19px;
     font-weight: 100;
     justify-content: space-between;
     text-align: center;
-    padding-top: 60vw;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    color: white;
   }
 
-  .column{
-    display: none;
-  }
-
-  .column2{
-    display:grid;
-  }
-
-
-  .playlist{
-  <iframe src="https://open.spotify.com/embed/user/0hvjjajghzvzt5df0k4su1nej/playlist/4riUHSlVqv0sHRmfTySp5I" width="100%" height="297.7" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-}
-/*
- * Recuérden que en CSS las líneas de abajo de sobreescriben a las líneas de arriba
- * Por eso es IMPORTANTE que los media queries estén acomodados del ancho más grande al más chico.
- * Por eso en este ejemplo, arriba están los estilos para medidas de 0 - 680px
- * (es decir de 0 a 680px) agrega los siguientes estilos.
- */
-
-
-   .grid-element{
- margin-left: 10px;
- margin-right: 10px;
- margin-top: 20px;
-     /*
-     Prueba poner la posición relativa en este elemento para ver qué pasa.
-     position: relative;*/
-   }
-
-
- .img-wrapper{
-   /* la posición relativa sirve para usar este elemento para posicionar el elemento con posición absoluta  */
-   position: relative;
- }
-
- .img-pie{
-   color: black;
-   background-color: #ffffff;
-   padding: 100px;
-   text-align: left;
-   width: 100%;
-   height: 100%;
-   top:0;
-   /* Este elemento tendrá su posición en relación al primer antecesor que tenga posición relativa. */
-   position: absolute;
-
-   display: none; /* esconde todos los elemtos para sólo mosstrar */
- }
- /*
-   CSS funciona seleccionando elementos y aplicándoles estilos
-   en la siguiente linea se seleccionan únicamente la clase img-wrapper en la que el mouse haga hover
-   Y sobre dentro de ese elemento selecciona la clase img-pie
- */
- .img-wrapper:hover .img-pie{
-   display: block; /* con display:block mostramos el elemento */
- }
-
- .img-pie-credito{
-   /* funciona en combinación con la posición aboluta */
-   bottom: 0;
- }
-
- .title-photos{
-   color: black;
-   font-family: 'Montserrat';
-   font-size: 25px;
-   font-weight: 800;
-   list-style-type: none;
-   text-align: center;
-   margin-top:-50px;
- }
-
- .text-photos{
-   color: black;
-   font-family: 'Montserrat';
-   font-size: 13px;
-   font-weight: 100;
-   list-style-type: none;
-   margin-top:-30px;
- }
-
- .date-photosn{
-   color: black;
-   font-family: 'Montserrat';
-   font-size: 8px;
-   font-weight: 800;
-   list-style-type: none;
-   margin-top:100px;
- }
-
-
-
- .date-photos{
-   color: black;
-   font-family: 'Montserrat';
-   font-size: 8px;
-   font-weight: 100;
-   list-style-type: none;
-   margin-top:-50px;
- }
-
- .time-photos{
-   color: black;
-   font-family: 'Montserrat';
-   font-size: 8px;
-   font-weight: 100;
-   list-style-type: none;
-   margin-top:-50px;
- }
-
-
-
- .datest{
-  font-family: 'Montserrat';
-  font-size: 17px;
-  font-weight: 700;
-  font-style: italic;
-  color:#ffffff;
- }
-
-
- .dates{
-  padding-left: 70px;
-  padding-right: 70px;
-  margin-top: -30px;
- }
-
-
- .artistdate{
-   font-size: 13px;
- }
-
- .schedule{
-   font-size: 13px;
- }
-
-
- .titlen{
-   font-family: 'Montserrat';
-   font-size: 17px;
-   font-weight: 700;
-   color:#ffffff;
-   font-style: italic;
-   margin-left: 20px;
- }
-
- .datesc{
-   font-family: 'Montserrat';
-   font-size: 12px;
-   font-weight: 100;
-   color:#ffffff;
-   margin-left: 20px;
- }
-
- .for{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  font-family: 'Montserrat';
-  font-size: 12px;
-  font-weight: 700;
-  color:#ffffff;
-  margin-left: 20px;
- }
-
-
- .forpadce{
-   font-family: 'Montserrat';
-   font-size: 12px;
-   font-weight: 700;
-   color:#ffffff;
-   margin-left: 20px;
- }
-
- .button-form{
- margin-left:710px;
- }
-
- .Tickets{
-display: none;
- }
-
- .Tickets2{
-   display: grid;
-   grid-gap: 20px;
-   font-family: 'Montserrat';
-   font-size: 13px;
-   font-weight: 100;
-   margin-right: 20px;
-   margin-left: 20px;
- }
-
- .contact-form{
-   display: grid;
-   background-color: black;
-   display: block;
-   font-family:'Montserrat';
-   font-weight: 100;
-   font-size: 19px;
-   color: white;
-   padding-left: 20px;
-   padding-top:60px;
- }
- .name-form--input{
-
-   width: 183px;
- }
-
- .name-form--input2{
-
-   width: 183px;
-   margin-left:30px;
- }
- .contact-form--input{
-   width: 395px;
- }
-
- .submit-form--input{
-   margin-bottom: 100px;
-   margin-left: 160px;
- }
-
-
-.titleticket{
-  font-size: 13px;
-}
-
-.textticket{
-  font-size: 13px;
-}
-
-.priceticket{
-  font-size: 13px;
-}
-
-
-
-@media only screen and (max-width: 380px) {
-
-
-  h4{
-    font-size: 27px;
-    margin-bottom: -60px;
-    margin-bottom: 40px;
-    padding-top: 20px;
-
-  }
-
-  h5{
-    font-size: 27px;
-  }
-
-  .menuop{
-    font-size: 10px;
-  }
-
-  .lineup{
-  display: none;
-  }
-
-  .lineup1{
-   display: none;
-  }
-
-  .lineup2{
-   display: grid;
-  }
-  .lineupl{
-   display: grid;
-   grid-template-columns: 1fr;
-   font-family: 'Montserrat';
-   font-size: 12px;
-   font-weight: 100;
-   list-style-type: none;
-   color:#ffffff;
-   padding-left: 250px;
-   padding-bottom: 39px;
-
-  }
-
-  .textinfo{
-    font-family: 'Montserrat';
-    font-size: 13px;
-    font-weight: 100;
-    text-align: center;
-    margin-left:20px;
-    margin-right: 20px;
-  }
-
-  .column{
+  .column {
     display: grid;
-    grid-template-columns:1fr;
-  }
-  .grid-element{
-margin-left: 20px;
-margin-right: 20px;
-margin-top: 20px;
-}
-
-.column2{
-  display:none;
-}
-.datest{
-  display:none;
-}
-.dates{
-  display:none;
-}
-
-  .Tickets{
-    display: none;
-  }
-
-  .Tickets2{
-    display: grid;
-    grid-gap: 20px;
-    font-family: 'Montserrat';
-    font-size: 13px;
-    font-weight: 100;
-    margin-right: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
     margin-left: 20px;
+    margin-right: 20px;
+    display: none;
   }
 
-  .contact-form{
+  .grid-element {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    /*
+      Prueba poner la posición relativa en este elemento para ver qué pasa.
+      position: relative;*/
+  }
+
+  .img-wrapper {
+    /* la posición relativa sirve para usar este elemento para posicionar el elemento con posición absoluta  */
+    position: relative;
+  }
+
+  .img-pie {
+    color: black;
+    background-color: #ffffff;
+    padding: 100px;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    /* Este elemento tendrá su posición en relación al primer antecesor que tenga posición relativa. */
+    position: absolute;
+
+    display: none; /* esconde todos los elemtos para sólo mosstrar */
+  }
+  /*
+      CSS funciona seleccionando elementos y aplicándoles estilos
+      en la siguiente linea se seleccionan únicamente la clase img-wrapper en la que el mouse haga hover
+      Y sobre dentro de ese elemento selecciona la clase img-pie
+    */
+  .img-wrapper:hover .img-pie {
+    display: block; /* con display:block mostramos el elemento */
+  }
+
+  .img-pie-credito {
+    /* funciona en combinación con la posición aboluta */
+    bottom: 0;
+  }
+
+  .column2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .grid-elementm {
+    width: 100%;
+    height: 100;
+    margin-top: -20px;
+    /*
+      Prueba poner la posición relativa en este elemento para ver qué pasa.
+      position: relative;*/
+  }
+
+  .img-wrapperm {
+    /* la posición relativa sirve para usar este elemento para posicionar el elemento con posición absoluta  */
+    position: relative;
+  }
+
+  .img-piem {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "Montserrat";
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    width: 100%;
+    hight: 100%;
+    top: 25px;
+    /* Este elemento tendrá su posición en relación al primer antecesor que tenga posición relativa. */
+    position: absolute;
+    /* esconde todos los elemtos para sólo mosstrar */
+  }
+  /*
+      CSS funciona seleccionando elementos y aplicándoles estilos
+      en la siguiente linea se seleccionan únicamente la clase img-wrapper en la que el mouse haga hover
+      Y sobre dentro de ese elemento selecciona la clase img-pie
+    */
+
+  .img-pie-creditom {
+    /* funciona en combinación con la posición aboluta */
+    bottom: 0;
+  }
+
+  .grid-rect2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+  }
+
+  .mapas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .title-photos {
+    color: black;
+    font-family: "Montserrat";
+    font-size: 35px;
+    font-weight: 800;
+    list-style-type: none;
+    text-align: center;
+    margin-top: -50px;
+  }
+
+  .text-photos {
+    color: black;
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 100;
+    list-style-type: none;
+    margin-top: -30px;
+  }
+
+  .date-photosn {
+    color: black;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 800;
+    list-style-type: none;
+    margin-top: 50px;
+  }
+
+  .date-photos {
+    color: black;
+    font-family: "Montserrat";
+    font-size: 10px;
+    font-weight: 100;
+    list-style-type: none;
+    margin-top: -50px;
+  }
+
+  .time-photos {
+    color: black;
+    font-family: "Montserrat";
+    font-size: 10px;
+    font-weight: 100;
+    list-style-type: none;
+    margin-top: -50px;
+  }
+
+  .datest {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 17px;
+    font-weight: 700;
+    font-style: italic;
+    color: #ffffff;
+    padding-right: 80px;
+  }
+
+  .dates {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    color: #ffffff;
+    padding-left: 10%;
+    padding-right: 80px;
+    padding-bottom: 30px;
+    margin-top: -30px;
+  }
+
+  .datestc {
+    display: none;
+  }
+
+  .datesc {
+    display: none;
+  }
+
+  .artistdate {
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    list-style-type: none;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .schedule {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    list-style-type: none;
+    color: #ffffff;
+  }
+
+  .Tickets {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    list-style-type: none;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .Tickets2 {
+    display: none;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 115px;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    list-style-type: none;
+    color: #ffffff;
+    margin-left: 115px;
+    margin-right: 115px;
+  }
+
+  .forpad {
+    padding-left: 20px;
+  }
+  .forpad2 {
+    padding-left: 0px;
+  }
+  .titleticket {
+    font-family: "Montserrat";
+    font-size: 19px;
+    font-weight: 100;
+    list-style-type: none;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .recta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px;
+
+    width: 100%;
+    height: 575px;
+    background-color: #d5ec35;
+    padding-bottom: 100px;
+  }
+
+  .titulos {
+    display: flex;
+    align-self: center;
+    font-family: "Montserrat";
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+    list-style-type: none;
+    color: #000000;
+    justify-content: center;
+    padding-top: 0px;
+  }
+  .tagg-png {
+    display: inline-flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    max-height: 600px;
+    width: 100%;
+    align-items: center;
+    justify-self: center;
+  }
+
+  .textticket {
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    list-style-type: none;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .priceticket {
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    text-align: right;
+    list-style-type: none;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .contact-form {
     display: grid;
     background-color: black;
     display: block;
-    font-family:'Montserrat';
+    font-family: "Montserrat";
     font-weight: 100;
+    font-size: 13px;
+    color: white;
+    padding-left: 90px;
+    padding-top: 60px;
+  }
+  .name-form {
+    display: flex;
+    background-color: black;
+  }
+
+  .name-form--input {
+    border: 0.5px solid white;
+    background-color: black;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    color: #ffffff;
+    max-width: 320px;
+  }
+
+  .name-form--input2 {
+    border: 0.5px solid white;
+    background-color: black;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    color: #ffffff;
+    max-width: 320px;
+    margin-left: 30px;
+  }
+
+  .small-letters {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .name-form--label {
+    display: block;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: italic;
+    font-size: 13px;
+    color: white;
+  }
+
+  .name-form--label2 {
+    display: block;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: italic;
+    font-size: 13px;
+    color: white;
+    margin-left: 37%;
+  }
+
+  .contact-form--label {
+    display: block;
+    font-family: "Montserrat";
+    font-weight: 100px;
+    font-size: 13px;
+    color: white;
+    margin-bottom: 20px;
+  }
+
+  .contact-form--input {
+    display: block;
+    border: 0.5px solid white;
+    background-color: black;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    color: #ffffff;
+    max-width: 670px;
+  }
+
+  .submit-form--input {
+    display: block;
+    border: 0.5px solid white;
+    background-color: black;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    margin-bottom: 60px;
+    color: #ffffff;
+    align-items: center;
+  }
+
+  .boxsponsors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    grid-gap: 120px;
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .button-form {
+    background-color: #e06969;
+    list-style-type: none;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 800;
+    color: #000000;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 60px;
+  }
+
+  .sponsors {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+
+  .tag-png {
+    width: 100%;
+  }
+  .tag-img {
+    width: 100%;
+  }
+
+  .tag-img-obj {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .tag-video {
+    width: 100%;
+  }
+  .tag-image {
+    width: 100%;
+  }
+  .tag-png {
+    width: 100%;
+  }
+
+  .button:hover {
+    padding: 10px;
+  }
+  .button-form:hover {
+    padding: 10px;
+  }
+
+  .button__importante:hover {
+    padding: 10px;
+  }
+
+  .kia:hover {
+    padding: 15px;
+  }
+
+  .absolut:hover {
+    padding: 15px;
+  }
+
+  .corona:hover {
+    padding: 15px;
+  }
+
+  .amazon:hover {
+    padding: 15px;
+  }
+
+  .instagram:hover {
+    padding: 15px;
+  }
+
+  .button__importante {
+    background-color: #d5ec35;
+    list-style-type: none;
+    font-family: "Montserrat";
     font-size: 19px;
+    font-weight: 800;
+    color: #000000;
+  }
+  .button__slide {
+    background-color: #d5ec35;
+  }
+  .button__contact {
+    background-color: #d5ec35;
+  }
+}
+@media only screen and (max-width: 320px) {
+  p {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+  }
+
+  h1 {
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 100;
+    list-style-type: none;
+    color: #ffffff;
+    padding-left: 120px;
+  }
+
+  h4 {
+    font-family: "Montserrat";
+    font-size: 27px;
+    font-weight: 800;
+    font-style: italic;
+    text-align: left;
+    list-style-type: none;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+  }
+
+  h5 {
+    font-family: "Montserrat";
+    font-size: 27px;
+    font-weight: 800;
+    font-style: italic;
+    text-align: left;
+    list-style-type: none;
+    color: #ffffff;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding-left: 20px;
+  }
+  .insta {
+    max-width: 30px;
+  }
+
+  .header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .menuop {
+    display: grid;
+    grid-row-gap: 10px;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    text-align: left;
+    list-style-type: none;
+  }
+  .lineup1 {
+    display: none;
+    padding-bottom: 50px;
+  }
+  .lineup {
+    display: grid;
+    grid-template-columns:1fr;
+    gap: 20px;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    list-style-type: none;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+
+  .lineup2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    list-style-type: none;
+    color: #ffffff;
+    padding-bottom: 0px;
+  }
+
+  .lineupl {
+    display: none;
+    grid-template-columns: 1fr;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    list-style-type: none;
+    color: #ffffff;
+    padding-bottom: 0px;
+  }
+
+  .textinfo {
+    font-family: "Montserrat";
+    font-size: 10px;
+    font-weight: 100;
+    justify-content: space-between;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    color: white;
+  }
+
+  .column {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .grid-element {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    /*
+      Prueba poner la posición relativa en este elemento para ver qué pasa.
+      position: relative;*/
+  }
+
+  .img-wrapper {
+    /* la posición relativa sirve para usar este elemento para posicionar el elemento con posición absoluta  */
+    position: relative;
+  }
+
+  .img-pie {
+    color: black;
+    background-color: #ffffff;
+    padding: 60px;
+    text-align: left;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    /* Este elemento tendrá su posición en relación al primer antecesor que tenga posición relativa. */
+    position: absolute;
+
+    display: none; /* esconde todos los elemtos para sólo mosstrar */
+  }
+  /*
+      CSS funciona seleccionando elementos y aplicándoles estilos
+      en la siguiente linea se seleccionan únicamente la clase img-wrapper en la que el mouse haga hover
+      Y sobre dentro de ese elemento selecciona la clase img-pie
+    */
+  .img-wrapper:hover .img-pie {
+    display: block; /* con display:block mostramos el elemento */
+  }
+
+  .img-pie-credito {
+    /* funciona en combinación con la posición aboluta */
+    bottom: 0;
+  }
+
+  .column2 {
+    display: none;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .grid-elementm {
+    width: 100%;
+    height: 100;
+    margin-top: -20px;
+    /*
+      Prueba poner la posición relativa en este elemento para ver qué pasa.
+      position: relative;*/
+  }
+
+  .img-wrapperm {
+    /* la posición relativa sirve para usar este elemento para posicionar el elemento con posición absoluta  */
+    position: relative;
+  }
+
+  .img-piem {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "Montserrat";
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    width: 100%;
+    hight: 100%;
+    top: 25px;
+    /* Este elemento tendrá su posición en relación al primer antecesor que tenga posición relativa. */
+    position: absolute;
+    /* esconde todos los elemtos para sólo mosstrar */
+  }
+  /*
+      CSS funciona seleccionando elementos y aplicándoles estilos
+      en la siguiente linea se seleccionan únicamente la clase img-wrapper en la que el mouse haga hover
+      Y sobre dentro de ese elemento selecciona la clase img-pie
+    */
+
+  .img-pie-creditom {
+    /* funciona en combinación con la posición aboluta */
+    bottom: 0;
+  }
+
+  .grid-rect2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 20px;
+  }
+
+  .mapas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .title-photos {
+    color: black;
+    font-family: "Montserrat";
+    font-size: 35px;
+    font-weight: 800;
+    list-style-type: none;
+    text-align: center;
+    margin-top: -50px;
+  }
+
+  .text-photos {
+    color: black;
+    font-family: "Montserrat";
+    font-size: 12px;
+    font-weight: 100;
+    list-style-type: none;
+    margin-top: 20px;
+  }
+
+  .date-photosn {
+    display: none;
+    color: black;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 800;
+    list-style-type: none;
+    margin-top: 200px;
+  }
+
+  .date-photos {
+    display: none;
+    color: black;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    list-style-type: none;
+    margin-top: -50px;
+  }
+
+  .time-photos {
+    display: none;
+    color: black;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    list-style-type: none;
+    margin-top: -50px;
+  }
+  .datest1 {
+    display: none;
+  }
+  .datest {
+    display: grid;
+    padding-right: 20px;
+    grid-template-columns: 1fr;
+  }
+  .datest3 {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .datest2 {
+    display: grid;
+    grid-template-columns: 1fr ;
+    align-self: center;
+    font-family: "Montserrat";
+    font-size: 17px;
+    font-weight: 700;
+    font-style: italic;
+    color: #ffffff;
+    padding-right: 0px;
+  }
+  .dates2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    
+  }
+  .dates {
+    display: grid;
+    grid-template-columns: 1fr ;
+    font-family: "Montserrat";
+    font-size: 1opx;
+    font-weight: 100;
+    color: #ffffff;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .datestc {
+    display: none;
+  }
+
+  .datesc {
+    display: none;
+  }
+
+  .artistdate {
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    list-style-type: none;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .schedule {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    list-style-type: none;
+    color: #ffffff;
+  }
+
+  .Tickets {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    list-style-type: none;
+    color: #ffffff;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .Tickets2 {
+    display: none;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 115px;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    list-style-type: none;
+    color: #ffffff;
+    margin-left: 115px;
+    margin-right: 115px;
+  }
+
+  .forpad {
+    padding-left: 0px;
+  }
+  .forpad2 {
+    padding-left: 0px;
+  }
+  .titleticket {
+    font-family: "Montserrat";
+    font-size: 19px;
+    font-weight: 100;
+    list-style-type: none;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .recta {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px;
+
+    width: 100%;
+    height: 350px;
+    background-color: #d5ec35;
+    padding-bottom: 100px;
+  }
+
+  .titulos {
+    display: flex;
+    align-self: center;
+    font-family: "Montserrat";
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+    list-style-type: none;
+    color: #000000;
+    justify-content: center;
+    padding-top: 0px;
+    padding-left:10px;
+  }
+  .tagg-png {
+    display: inline-flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    max-height: 600px;
+    width: 100%;
+    align-items: center;
+    justify-self: center;
+  }
+
+  .textticket {
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    list-style-type: none;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .priceticket {
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    text-align: right;
+    list-style-type: none;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-bottom: 20px;
+  }
+
+  .contact-form {
+    display: grid;
+    background-color: black;
+    display: block;
+    font-family: "Montserrat";
+    font-weight: 100;
+    font-size: 13px;
     color: white;
     padding-left: 20px;
-    padding-top:60px;
+    padding-right: 20px;
+    padding-top: 30px;
   }
-  .name-form--input{
-
-    width: 160px;
-  }
-
-  .name-form--input2{
-
-    width: 160px;
-    margin-left:30px;
-  }
-  .contact-form--input{
-    width: 340px;
+  .name-form {
+    display: flex;
+    background-color: black;
   }
 
-  .submit-form--input{
-    margin-bottom: 100px;
-    margin-left: 135px;
+  .name-form--input {
+    border: 0.5px solid white;
+    background-color: black;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    color: #ffffff;
+    max-width: 160px;
   }
 
+  .name-form--input2 {
+    border: 0.5px solid white;
+    background-color: black;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    color: #ffffff;
+    max-width: 160px;
+    margin-left: 10px;
+  }
 
-    .contact-form--input{
-      display: block;
-      border: .5px solid white;
-      background-color: black;
-      font-family: 'Montserrat';
-      font-size: 19px;
-      font-weight: 100;
-      margin-bottom: 20px;
-      color:#ffffff;
-      width: 350px;
-    }
+  .small-letters {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
 
-    .button-form{
-    margin-left:20px;
-    align-self: flex-start;
-    }
+  .name-form--label {
+    display: block;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: italic;
+    font-size: 13px;
+    color: white;
+  }
 
+  .name-form--label2 {
+    display: block;
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-style: italic;
+    font-size: 13px;
+    color: white;
+    margin-left: 35%;
+  }
 
+  .contact-form--label {
+    display: block;
+    font-family: "Montserrat";
+    font-weight: 100px;
+    font-size: 13px;
+    color: white;
+    margin-bottom: 20px;
+  }
 
+  .contact-form--input {
+    display: block;
+    border: 0.5px solid white;
+    background-color: black;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    margin-bottom: 20px;
+    color: #ffffff;
+    max-width: 280px;
+  }
 
-    }
+  .submit-form--input {
+    display: block;
+    border: 0.5px solid white;
+    background-color: black;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 100;
+    margin-bottom: 40px;
+    color: #ffffff;
+    align-items: center;
+    justify-self: center;
+  }
+
+  .boxsponsors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    grid-gap: 20px;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+  }
+
+  .button-form {
+    background-color: #e06969;
+    list-style-type: none;
+    font-family: "Montserrat";
+    font-size: 13px;
+    font-weight: 800;
+    color: #000000;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 60px;
+  }
+
+  .sponsors {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+  }
+
+  .tag-png {
+    width: 100%;
+  }
+  .tag-img {
+    width: 100%;
+  }
+
+  .tag-img-obj {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .tag-video {
+    width: 100%;
+  }
+  .tag-image {
+    width: 100%;
+  }
+  .tag-png {
+    width: 100%;
+  }
+
+  .button:hover {
+    padding: 10px;
+  }
+  .button-form:hover {
+    padding: 10px;
+  }
+
+  .button__importante:hover {
+    padding: 10px;
+  }
+
+  .kia:hover {
+    padding: 15px;
+  }
+
+  .absolut:hover {
+    padding: 15px;
+  }
+
+  .corona:hover {
+    padding: 15px;
+  }
+
+  .amazon:hover {
+    padding: 15px;
+  }
+
+  .instagram:hover {
+    padding: 15px;
+  }
+
+  .button__importante {
+    background-color: #d5ec35;
+    list-style-type: none;
+    font-family: "Montserrat";
+    font-size: 19px;
+    font-weight: 800;
+    color: #000000;
+  }
+  .button__slide {
+    background-color: #d5ec35;
+  }
+  .button__contact {
+    background-color: #d5ec35;
+  }
+}
+}
